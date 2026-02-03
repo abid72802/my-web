@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>World Ship Chandler</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Header / Navbar -->
+  <header class="header">
+    <div class="container nav">
+      <a class="brand" href="#home">World Ship Chandler</a>
+
+      <button class="nav-toggle" aria-label="Toggle Menu" aria-expanded="false">
+        ☰
+      </button>
+
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+
+        <!-- Locations mega dropdown -->
+        <li class="dropdown">
+          <button class="dropdown-btn" type="button" aria-expanded="false">
+            Locations ▾
+          </button>
+
+          <div class="dropdown-panel" role="menu">
+            <div class="mega">
+              <div class="mega-col">
+                <h4>EUROPE</h4>
+                <a href="#">Netherlands</a>
+                <a href="#">Belgium</a>
+                <a href="#">Germany</a>
+                <a href="#">Spain</a>
+                <a href="#">Portugal</a>
+                <a href="#">Norway</a>
+                <a href="#">Latvia</a>
+                <a href="#">Gibraltar</a>
+              </div>
+
+              <div class="mega-col">
+                <h4>ASIA</h4>
+                <a href="#">Singapore</a>
+                <a href="#">Malaysia</a>
+                <a href="#">Indonesia</a>
+                <a href="#">China</a>
+                <a href="#">South Korea</a>
+                <a href="#">Pakistan</a>
+                <a href="#">Thailand</a>
+              </div>
+
+              <div class="mega-col">
+                <h4>AFRICA</h4>
+                <a href="#">South Africa</a>
+                <a href="#">Mozambique</a>
+                <a href="#">Namibia</a>
+                <a href="#">Nigeria</a>
+                <a href="#">Morocco</a>
+                <a href="#">Egypt</a>
+              </div>
+
+              <div class="mega-col">
+                <h4>MIDDLE EAST</h4>
+                <a href="#">Oman</a>
+                <a href="#">United Arab Emirates</a>
+                <a href="#">Saudi Arabia</a>
+              </div>
+
+              <div class="mega-col">
+                <h4>AMERICAS</h4>
+                <a href="#">United States</a>
+                <a href="#">Canada</a>
+                <a href="#">Mexico</a>
+                <a href="#">Brazil</a>
+                <a href="#">Argentina</a>
+                <a href="#">Chile</a>
+                <a href="#">Panama</a>
+                <a href="#">Uruguay</a>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <a class="nav-cta" href="#contact">Talk to our team</a>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <main id="home">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <p class="eyebrow">TRUSTED SHIP SUPPLY PARTNER</p>
+          <h1>Your Trusted Link Across the Seas</h1>
+          <p class="lead">
+            We provide reliable provisions, bonded stores, and technical support to keep your vessels moving smoothly at ports across the globe.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn primary" href="#services">Explore services</a>
+            <a class="btn ghost" href="#contact">Talk to our team →</a>
+          </div>
+
+          <div class="stats">
+            <div class="stat">
+              <h3>24/7 Coverage</h3>
+              <p>Fast response in key global ports.</p>
+            </div>
+            <div class="stat">
+              <h3>Quality Assured</h3>
+              <p>Certified provisions &amp; bonded stores.</p>
+            </div>
+            <div class="stat">
+              <h3>End-to-End</h3>
+              <p>From supply to logistics &amp; storage.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-media">
+          <div class="media-card">
+            <div class="logo-box">Logo / Image</div>
+            <a class="wa" href="https://wa.me/" target="_blank" rel="noreferrer">WhatsApp</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quick Services -->
+    <section class="section">
+      <div class="container">
+        <div class="grid-4">
+          <article class="feature-card">
+            <span class="icon">⚓</span>
+            <h3>Deck &amp; Engine</h3>
+            <p>High-standard deck and engine supplies to keep your vessel running smoothly.</p>
+          </article>
+          <article class="feature-card">
+            <span class="icon">🧺</span>
+            <h3>Provisions &amp; Bonded Stores</h3>
+            <p>Supplying fresh provisions and duty-free items to keep your crew comfortable.</p>
+          </article>
+          <article class="feature-card">
+            <span class="icon">🔧</span>
+            <h3>Repairs &amp; Maintenance</h3>
+            <p>Skilled repair teams ready for mechanical, technical, and routine needs.</p>
+          </article>
+          <article class="feature-card">
+            <span class="icon">💳</span>
+            <h3>Cash To Master (CTM)</h3>
+            <p>Fast and secure cash delivery services to vessel masters worldwide.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section muted">
+      <div class="container about-grid">
+        <div>
+          <p class="eyebrow">ABOUT US</p>
+          <h2>A dedicated partner for every port call</h2>
+          <p>
+            We understand the importance of speed, reliability, and quality. With years of experience and a dedicated team, we support your journey with global reach, 24/7 availability, and quality assurance.
+          </p>
+
+          <ul class="ticks">
+            <li>Global Reach</li>
+            <li>24/7 Availability</li>
+            <li>Quality Assurance</li>
+          </ul>
+        </div>
+
+        <div class="about-card">
+          <div class="big">15+</div>
+          <div>Years of Excellence</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services showcase -->
+    <section id="services" class="section">
+      <div class="container">
+        <p class="eyebrow">OUR SERVICES</p>
+        <h2>Tailored support for every voyage</h2>
+        <p class="sub">
+          From storage and logistics to trucking and warehousing, we cover the full breadth of ship supply and logistics needs.
+        </p>
+
+        <div class="cards-5">
+          <article class="service-card">
+            <div class="img ph">Storage Image</div>
+            <span class="tag">Premium</span>
+            <h3>Storage</h3>
+            <p>Secure storage solutions tailored to your vessel's needs.</p>
+          </article>
+
+          <article class="service-card">
+            <div class="img ph">Logistics Image</div>
+            <span class="tag">Featured</span>
+            <h3>Logistics</h3>
+            <p>Seamless logistics to ensure timely delivery across ports.</p>
+          </article>
+
+          <article class="service-card">
+            <div class="img ph">Trucking Image</div>
+            <span class="tag">Express</span>
+            <h3>Trucking</h3>
+            <p>Just-in-time trucking from warehouse to port.</p>
+          </article>
+
+          <article class="service-card">
+            <div class="img ph">Packaging Image</div>
+            <span class="tag">Quality</span>
+            <h3>Packaging</h3>
+            <p>Professional packaging to protect supplies in transit.</p>
+          </article>
+
+          <article class="service-card">
+            <div class="img ph">Warehousing Image</div>
+            <span class="tag">Secure</span>
+            <h3>Warehousing</h3>
+            <p>Modern warehousing with strict quality control.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta">
+      <div class="container cta-grid">
+        <div>
+          <p class="eyebrow">CALL TO ACTION</p>
+          <h2>Reliable Ship Supplies &amp; Services – Anytime, Anywhere</h2>
+          <p>We provide top-quality provisions, deck &amp; engine supplies, and global logistics solutions.</p>
+        </div>
+        <div class="cta-box">
+          <div class="phone">+44 7446 960323</div>
+          <a class="btn primary" href="#contact">Contact now</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section muted">
+      <div class="container contact-grid">
+        <div>
+          <h2>Contact</h2>
+          <p><strong>Phone:</strong> +44 7446 960323</p>
+          <p><strong>Email:</strong> info@continentalshipservices.com</p>
+        </div>
+
+        <form class="form">
+          <div class="row">
+            <input type="text" placeholder="Your Name" required />
+            <input type="email" placeholder="Your Email" required />
+          </div>
+          <textarea rows="5" placeholder="Message" required></textarea>
+          <button class="btn primary" type="submit">Send</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>World Ship Chandler</h3>
+        <p>Your trusted partner in ship supply and logistics.</p>
+      </div>
+
+      <div>
+        <h4>Useful Links</h4>
+        <a href="#home">Home</a>
+        <a href="#about">About us</a>
+        <a href="#services">Services</a>
+      </div>
+
+      <div>
+        <h4>Contact</h4>
+        <p>+44 7446 960323</p>
+        <p>info@continentalshipservices.com</p>
+      </div>
+    </div>
+    <div class="container small">© 2026 CSS. All rights reserved.</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
